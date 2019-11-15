@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.flex-container > button {
+    flex: 1;
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    font-size: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#times {
+    font-size: 24px;
+}
+
+#clear-time {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
